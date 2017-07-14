@@ -1,0 +1,9 @@
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\bin\Debug\netcoreapp1.1\BookstoreAPI.deps.json
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\bin\Debug\netcoreapp1.1\BookstoreAPI.runtimeconfig.json
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\bin\Debug\netcoreapp1.1\BookstoreAPI.runtimeconfig.dev.json
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\bin\Debug\netcoreapp1.1\BookstoreAPI.dll
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\bin\Debug\netcoreapp1.1\BookstoreAPI.pdb
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\obj\Debug\netcoreapp1.1\BookstoreAPI.csprojResolveAssemblyReference.cache
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\obj\Debug\netcoreapp1.1\BookstoreAPI.AssemblyInfo.cs
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\obj\Debug\netcoreapp1.1\BookstoreAPI.dll
+C:\Users\johnsond\Documents\Dev\DotNet\BookstoreAPI\BookstoreAPI\obj\Debug\netcoreapp1.1\BookstoreAPI.pdb
