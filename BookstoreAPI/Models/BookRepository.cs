@@ -58,7 +58,6 @@ namespace BookstoreAPI.Models
             //                   a.FirstName,
             //                   a.LastName,
             //                   a.HeadshotImageUrl
-
             //               }).ToList();
 
 
@@ -71,18 +70,25 @@ namespace BookstoreAPI.Models
             //               where r.BookID == bookID
             //               select r);
 
-            BookComposite composite = new BookComposite();
-            composite.Title = book.Title;
-            composite.Description = book.Description;
-            composite.PublishedMonth = book.PublishedMonth;
-            composite.PublishedYear = book.PublishedYear;
-            composite.PublishedDay = book.PublishedDay;
-            composite._Links = new BookHypermedia();
-            composite._Links.Self = new Link("http://localhost/books/" + book.ID);
-            composite._Links.Reviews = new Link("http://localhost/books/" + book.ID + "/reviews");
-            composite._Links.Authors = authors as IEnumerable<Author>;
+            if (book != null)
+            {
+                BookComposite composite = new BookComposite();
+                composite.Title = book.Title;
+                composite.Description = book.Description;
+                composite.PublishedMonth = book.PublishedMonth;
+                composite.PublishedYear = book.PublishedYear;
+                composite.PublishedDay = book.PublishedDay;
+                composite._Links = new BookHypermedia();
+                composite._Links.Self = new Link("http://localhost/books/" + book.ID);
+                composite._Links.Reviews = new Link("http://localhost/books/" + book.ID + "/reviews");
+                composite._Links.Authors = authors as IEnumerable<Author>;
 
-            return composite;
+                return composite;
+            }
+            else
+            {
+                return null;
+            }
 
 
             /*
